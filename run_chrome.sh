@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rm -rfw ./reports/chrome
+rm -rfv ./reports/chrome
 mkdir -p ./reports/chrome
 
 katalon_opts='-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Pass_Fail_Suite"'
