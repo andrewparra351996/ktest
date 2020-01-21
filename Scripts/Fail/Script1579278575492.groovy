@@ -16,8 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.gamestop.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/span_Video Games'))
@@ -35,6 +33,4 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Terminator Resi
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Terminator Resistance  PlayStation 4  _0f07e1/select_123456789101112131415161718192021222_d181e2'), 
     '14', true)
-
-WebUI.closeBrowser()
 
