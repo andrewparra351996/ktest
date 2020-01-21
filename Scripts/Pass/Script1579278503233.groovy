@@ -16,13 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://www.gamestop.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/span_Video Games'))
+WebUI.navigateToUrl('http://usfsm.edu/')
 
-WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/img_Video Games_category-thumb ae-img'))
+WebUI.click(findTestObject('Object Repository/Page_Welcome to the University of South Flo_458891/a_Academics'))
 
-WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/a_New Releases'))
+WebUI.click(findTestObject('Object Repository/Page_Academics  USFSM/a_Programs  Majors'))
 
-WebUI.click(findTestObject('Object Repository/Page_PS4 Pro  Slim - Buy PS4 Games Consoles_ef21d4/a_Terminator Resistance'))
+WebUI.click(findTestObject('Object Repository/Page_Programs  Majors  USFSM/img'))
+
+WebUI.click(findTestObject('Object Repository/Page_CyberSecurity and IT  Undergraduate Programs/a_Program Details'))
+
+WebUI.closeBrowser()
 

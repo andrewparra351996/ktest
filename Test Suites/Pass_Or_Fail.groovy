@@ -33,10 +33,8 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  */
 @SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
-	WebUI.openBrowser(' ')
-	WebUI.deleteAllCookies()
-	WebUI.callTestCase(findTestCase('Test Cases/Pass'), FailureHandling.STOP_ON_FAILURE)
-	WebUI.callTestCase(findTestCase('Test Cases/Fail'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Test Cases/Pass'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Test Cases/Fail'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 /**
@@ -44,6 +42,7 @@ def setUp() {
  */
 @TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
+	WebUI.deleteAllCookies()
 	WebUI.closeBrowser()
 }
 

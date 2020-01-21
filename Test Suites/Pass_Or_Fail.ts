@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Pass_Fail_Suite</name>
+   <name>Pass_Or_Fail</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,15 +9,15 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>66bc78e5-7273-40a2-aeee-d932a7eb78da</testSuiteGuid>
+   <testSuiteGuid>62d5bdc5-bf6e-4a07-92f8-333b542cee40</testSuiteGuid>
    <testCaseLink>
-      <guid>09c4a2c3-c412-460e-b2a4-b40a3e05a04b</guid>
+      <guid>046cccfa-3b4f-4496-95b8-0714b7527e49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Pass</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a0ea193-264d-4861-875d-264a5530c255</guid>
+      <guid>c708d0bf-d1fd-455e-9535-b3a63e43f2c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Fail</testCaseId>
