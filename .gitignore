@@ -4,8 +4,6 @@ bin
 
 Reports
 
-Libs
-
 output
 
 !output/.gitkeep
@@ -15,7 +13,6 @@ build
 
 .project
 /bin/
-/Libs/
 /.settings/
 /.classpath
 .svn/
