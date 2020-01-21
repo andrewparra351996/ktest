@@ -16,8 +16,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://usfsm.edu/')
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the University of South Flo_458891/a_Academics'))
