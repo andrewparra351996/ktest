@@ -57,7 +57,6 @@ def setupTestCase() {
  */
 @TearDownTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	WebUI.deleteAllCookies()
 	WebUI.closeBrowser()
 }
 
