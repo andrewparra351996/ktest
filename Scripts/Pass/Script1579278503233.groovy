@@ -26,5 +26,3 @@ WebUI.click(findTestObject('Object Repository/Page_Programs  Majors  USFSM/img')
 
 WebUI.click(findTestObject('Object Repository/Page_CyberSecurity and IT  Undergraduate Programs/a_Program Details'))
 
-WebUI.closeBrowser()
-
