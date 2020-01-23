@@ -29,7 +29,7 @@ class NewTestListener {
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
-	 */
+	 
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		if(testCaseContext.getTestCaseStatus() == 'FAILED'){
@@ -37,4 +37,5 @@ class NewTestListener {
 			testCaseContext.testCaseStatus == 'PASSED'
 			}
 		}
+		*/
 	}
