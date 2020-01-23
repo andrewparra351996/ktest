@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\parraa\\Katalon Studio\\katalontestscripts\\Reports\\20200122_105417\\Pass_Or_Fail\\20200122_105417\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\parraa\\Katalon Studio\\katalontestscripts\\Reports\\20200123_102501\\Pass_Or_Fail\\20200123_102501\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Pass_Or_Fail', suiteProperties, new File("C:\\Users\\parraa\\Katalon Studio\\katalontestscripts\\Reports\\20200122_105417\\Pass_Or_Fail\\20200122_105417\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Pass_Or_Fail', suiteProperties, new File("C:\\Users\\parraa\\Katalon Studio\\katalontestscripts\\Reports\\20200123_102501\\Pass_Or_Fail\\20200123_102501\\testCaseBinding"))
