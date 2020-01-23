@@ -18,7 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://www.gamestop.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/span_Video Games'))
+WebUI.click('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/span_Video Games', FailureHandling.OPTIONAL)
+//WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/span_Video Games'))
 
 WebUI.click(findTestObject('Object Repository/Page_Consoles Collectibles Video Games amp _d911fd/img_Video Games_category-thumb ae-img'))
 
